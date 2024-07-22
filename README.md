@@ -24,7 +24,7 @@
 ## Commands:
 
 ### Command to open sublime text editor
-````subl .```
+```subl .```
 
 ### Command to run ESP32 code:
 ```idf.py build```
