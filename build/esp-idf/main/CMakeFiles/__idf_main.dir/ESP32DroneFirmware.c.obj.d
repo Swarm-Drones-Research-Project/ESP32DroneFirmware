@@ -1,26 +1,25 @@
 esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj: \
  /home/david/esp-idf/Projects/ESP32DroneFirmware/main/ESP32DroneFirmware.c \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdarg.h \
  /home/david/esp-idf/components/newlib/platform_include/sys/reent.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
  /home/david/esp-idf/components/newlib/platform_include/sys/lock.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
  /home/david/esp-idf/Projects/ESP32DroneFirmware/build/config/sdkconfig.h \
  /home/david/esp-idf/components/newlib/platform_include/assert.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
@@ -29,7 +28,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj: \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
- /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/david/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/david/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -49,6 +49,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj: \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h \
  /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdarg.h \
  /home/david/esp-idf/components/xtensa/include/xtensa/xtruntime.h \
  /home/david/esp-idf/components/xtensa/esp32/include/xtensa/config/specreg.h \
  /home/david/esp-idf/components/xtensa/include/xtensa/xtruntime-core-state.h \
@@ -63,6 +64,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj: \
  /home/david/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/david/esp-idf/components/esp_common/include/esp_attr.h \
  /home/david/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /home/david/esp-idf/components/esp_common/include/esp_err.h \
  /home/david/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/david/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
@@ -101,15 +104,90 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj: \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /home/david/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
+ /home/david/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/david/esp-idf/components/esp_hw_support/include/esp_interface.h \
+ /home/david/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
+ /home/david/esp-idf/components/esp_event/include/esp_event.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi_crypto_types.h \
+ /home/david/esp-idf/components/esp_wifi/include/esp_wifi_default.h \
+ /home/david/esp-idf/components/esp_netif/include/esp_netif.h \
+ /home/david/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /home/david/esp-idf/components/esp_netif/include/esp_netif_types.h \
+ /home/david/esp-idf/components/esp_netif/include/esp_netif_defaults.h \
  /home/david/esp-idf/components/log/include/esp_log.h \
  /home/david/esp-idf/components/log/include/esp_log_level.h \
  /home/david/esp-idf/components/log/include/esp_log_color.h \
  /home/david/esp-idf/components/log/include/esp_log_buffer.h \
  /home/david/esp-idf/components/log/include/esp_log_timestamp.h \
- /home/david/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /home/david/esp-idf/components/hal/include/hal/gpio_types.h \
- /home/david/esp-idf/components/soc/esp32/include/soc/gpio_num.h \
- /home/david/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
- /home/david/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- /home/david/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
- /home/david/esp-idf/components/esp_hw_support/include/esp_etm.h
+ /home/david/esp-idf/components/nvs_flash/include/nvs_flash.h \
+ /home/david/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/david/esp-idf/components/esp_partition/include/esp_partition.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
+ /home/david/esp-idf/components/lwip/port/include/lwipopts.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/unistd.h \
+ /home/david/esp-idf/components/newlib/platform_include/sys/unistd.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h \
+ /home/david/esp-idf/components/newlib/platform_include/sys/select.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/select.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timeval.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/timespec.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timespec.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_pthreadtypes.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/sched.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/types.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/unistd.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/fcntl.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/_default_fcntl.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/stat.h \
+ /home/david/esp-idf/components/newlib/platform_include/time.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/time.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/time.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
+ /home/david/esp-idf/components/newlib/platform_include/sys/time.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/time.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/machine/_time.h \
+ /home/david/esp-idf/components/newlib/platform_include/sys/ioctl.h \
+ /home/david/esp-idf/components/newlib/platform_include/sys/poll.h \
+ /home/david/esp-idf/components/esp_system/include/esp_task.h \
+ /home/david/esp-idf/components/esp_hw_support/include/esp_random.h \
+ /home/david/esp-idf/components/lwip/port/include/sntp/sntp_get_set_time.h \
+ /home/david/esp-idf/components/lwip/port/include/sockets_ext.h \
+ /home/david/esp-idf/components/lwip/port/freertos/include/arch/sys_arch.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
+ /home/david/esp-idf/components/lwip/port/esp32xx/include/arch/cc.h \
+ /home/david/esp-idf/components/newlib/platform_include/errno.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/errno.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/sys/errno.h \
+ /root/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/xtensa-esp-elf/include/ctype.h \
+ /home/david/esp-idf/components/lwip/include/lwip/sockets.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/netif.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/pbuf.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/stats.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/mem.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/memp.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/inet.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/errno.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
+ /home/david/esp-idf/components/lwip/include/lwip/netdb.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/netdb.h \
+ /home/david/esp-idf/components/lwip/lwip/src/include/lwip/dns.h
