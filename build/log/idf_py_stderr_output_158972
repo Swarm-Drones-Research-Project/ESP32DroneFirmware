@@ -1,0 +1,8 @@
+/home/david/esp-idf/Projects/ESP32DroneFirmware/main/ESP32DroneFirmware.c: In function 'connect_wifi':
+/home/david/esp-idf/Projects/ESP32DroneFirmware/main/ESP32DroneFirmware.c:129:25: error: 'NOPE' undeclared (first use in this function)
+  129 |             .password = NOPE, // Or NOPE if there is no password
+      |                         ^~~~
+/home/david/esp-idf/Projects/ESP32DroneFirmware/main/ESP32DroneFirmware.c:129:25: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/ESP32DroneFirmware.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5581: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

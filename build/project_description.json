@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32DroneFirmware",
-    "project_version":    "1ada11c-dirty",
+    "project_version":    "ffb0eec-dirty",
     "project_path":       "/home/david/esp-idf/Projects/ESP32DroneFirmware",
     "idf_path":           "/home/david/esp-idf",
     "build_dir":          "/home/david/esp-idf/Projects/ESP32DroneFirmware/build",

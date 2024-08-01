@@ -1,0 +1,257 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.4-dev-1523-gaf25eb447e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jul 21 2024 21:44:07[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v3.1[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1fbdch (130012) map[0m
+[0;32mI (151) esp_image: segment 1: paddr=0002fc04 vaddr=3ffb0000 size=00414h (  1044) load[0m
+[0;32mI (151) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=84384h (541572) map[0m
+[0;32mI (342) esp_image: segment 3: paddr=000b43ac vaddr=3ffb0414 size=03a34h ( 14900) load[0m
+[0;32mI (348) esp_image: segment 4: paddr=000b7de8 vaddr=40080000 size=171fch ( 94716) load[0m
+[0;32mI (396) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (397) boot: Disabling RNG early entropy source...[0m
+[0;32mI (409) cpu_start: Multicore app[0m
+[0;32mI (417) cpu_start: Pro cpu start user code[0m
+[0;32mI (417) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (417) app_init: Application information:[0m
+[0;32mI (420) app_init: Project name:     ESP32DroneFirmware[0m
+[0;32mI (426) app_init: App version:      ffb0eec-dirty[0m
+[0;32mI (431) app_init: Compile time:     Jul 30 2024 22:38:18[0m
+[0;32mI (437) app_init: ELF file SHA256:  3d65f7eb3...[0m
+[0;32mI (442) app_init: ESP-IDF:          v5.4-dev-1523-gaf25eb447e[0m
+[0;32mI (449) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (454) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (459) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (464) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (471) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (477) heap_init: At 3FFB8088 len 00027F78 (159 KiB): DRAM[0m
+[0;32mI (483) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (489) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (496) heap_init: At 400971FC len 00008E04 (35 KiB): IRAM[0m
+[0;32mI (504) spi_flash: detected chip: generic[0m
+[0;32mI (506) spi_flash: flash io: dio[0m
+[0;33mW (510) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (525) main_task: Started on CPU0[0m
+[0;32mI (535) main_task: Calling app_main()[0m
+I (575) wifi:wifi driver task: 3ffc0188, prio:23, stack:6656, core=0
+I (585) wifi:wifi firmware version: 857e8b81e
+I (585) wifi:wifi certification version: v7.0
+I (585) wifi:config NVS flash: enabled
+I (585) wifi:config nano formating: disabled
+I (595) wifi:Init data frame dynamic rx buffer num: 32
+I (595) wifi:Init static rx mgmt buffer num: 5
+I (605) wifi:Init management short buffer num: 32
+I (605) wifi:Init dynamic tx buffer num: 32
+I (605) wifi:Init static rx buffer size: 1600
+I (615) wifi:Init static rx buffer num: 10
+I (615) wifi:Init dynamic rx buffer num: 32
+[0;32mI (625) wifi_init: rx ba win: 6[0m
+[0;32mI (625) wifi_init: accept mbox: 6[0m
+[0;32mI (625) wifi_init: tcpip mbox: 32[0m
+[0;32mI (635) wifi_init: udp mbox: 6[0m
+[0;32mI (635) wifi_init: tcp mbox: 6[0m
+[0;32mI (645) wifi_init: tcp tx win: 5760[0m
+[0;32mI (645) wifi_init: tcp rx win: 5760[0m
+[0;32mI (645) wifi_init: tcp mss: 1440[0m
+[0;32mI (655) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (655) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (665) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+I (745) wifi:mode : sta (a0:a3:b3:ed:7e:e8)
+I (745) wifi:enable tsf
+[0;32mI (745) WIFI: STA initialization complete[0m
+[0;32mI (755) WIFI: Connecting to AP...[0m
+W (755) wifi:exceed max band, 2g, ngroup:3
+W (755) wifi:exceed max band, 2g, ngroup:3
+W (755) wifi:exceed max band, 2g, ngroup:3
+W (765) wifi:exceed max band, 2g, ngroup:3
+I (765) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (775) wifi:state: init -> auth (0xb0)
+I (815) wifi:state: auth -> assoc (0x0)
+I (825) wifi:state: assoc -> run (0x10)
+I (825) wifi:connected with Suites at Third, aid = 3, channel 6, BW20, bssid = 70:47:77:51:9f:e0
+I (825) wifi:security: Open Auth, phy: bgn, rssi: -76
+I (835) wifi:pm start, type: 1
+
+I (835) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (885) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+W (895) wifi:exceed max band, 2g, ngroup:3
+W (995) wifi:exceed max band, 2g, ngroup:3
+W (1095) wifi:exceed max band, 2g, ngroup:3
+W (1295) wifi:exceed max band, 2g, ngroup:3
+I (1345) wifi:<ba-add>idx:0 (ifx:0, 70:47:77:51:9f:e0), tid:0, ssn:1, winSize:64
+W (1505) wifi:exceed max band, 2g, ngroup:3
+W (1915) wifi:exceed max band, 2g, ngroup:3
+W (2115) wifi:exceed max band, 2g, ngroup:3
+W (2325) wifi:exceed max band, 2g, ngroup:3
+[0;32mI (2345) esp_netif_handlers: sta ip: 10.183.77.184, mask: 255.255.254.0, gw: 10.183.76.1[0m
+[0;32mI (2345) WIFI: STA IP: 10.183.77.184[0m
+[0;32mI (2345) WIFI: Connected to AP[0m
+[0;32mI (2345) WIFI: Connecting to TCP server at 10.183.76.10:12345[0m
+W (2425) wifi:exceed max band, 2g, ngroup:3
+W (2635) wifi:exceed max band, 2g, ngroup:3
+W (2735) wifi:exceed max band, 2g, ngroup:3
+W (3145) wifi:exceed max band, 2g, ngroup:3
+W (3245) wifi:exceed max band, 2g, ngroup:3
+W (3345) wifi:exceed max band, 2g, ngroup:3
+W (3455) wifi:exceed max band, 2g, ngroup:3
+W (3555) wifi:exceed max band, 2g, ngroup:3
+W (3655) wifi:exceed max band, 2g, ngroup:3
+W (3965) wifi:exceed max band, 2g, ngroup:3
+W (4065) wifi:exceed max band, 2g, ngroup:3
+W (4165) wifi:exceed max band, 2g, ngroup:3
+W (4265) wifi:exceed max band, 2g, ngroup:3
+W (4675) wifi:exceed max band, 2g, ngroup:3
+W (4785) wifi:exceed max band, 2g, ngroup:3
+W (4885) wifi:exceed max band, 2g, ngroup:3
+W (5085) wifi:exceed max band, 2g, ngroup:3
+W (5195) wifi:exceed max band, 2g, ngroup:3
+W (5295) wifi:exceed max band, 2g, ngroup:3
+W (5395) wifi:exceed max band, 2g, ngroup:3
+W (5495) wifi:exceed max band, 2g, ngroup:3
+W (5605) wifi:exceed max band, 2g, ngroup:3
+W (5705) wifi:exceed max band, 2g, ngroup:3
+W (5805) wifi:exceed max band, 2g, ngroup:3
+W (5905) wifi:exceed max band, 2g, ngroup:3
+W (6015) wifi:exceed max band, 2g, ngroup:3
+W (6115) wifi:exceed max band, 2g, ngroup:3
+W (6215) wifi:exceed max band, 2g, ngroup:3
+W (6315) wifi:exceed max band, 2g, ngroup:3
+W (6425) wifi:exceed max band, 2g, ngroup:3
+W (6525) wifi:exceed max band, 2g, ngroup:3
+W (6625) wifi:exceed max band, 2g, ngroup:3
+W (6725) wifi:exceed max band, 2g, ngroup:3
+W (6825) wifi:exceed max band, 2g, ngroup:3
+W (6935) wifi:exceed max band, 2g, ngroup:3
+W (7235) wifi:exceed max band, 2g, ngroup:3
+W (7445) wifi:exceed max band, 2g, ngroup:3
+W (7545) wifi:exceed max band, 2g, ngroup:3
+W (7645) wifi:exceed max band, 2g, ngroup:3
+W (7755) wifi:exceed max band, 2g, ngroup:3
+W (7855) wifi:exceed max band, 2g, ngroup:3
+W (7955) wifi:exceed max band, 2g, ngroup:3
+W (8055) wifi:exceed max band, 2g, ngroup:3
+W (8165) wifi:exceed max band, 2g, ngroup:3
+W (8265) wifi:exceed max band, 2g, ngroup:3
+W (8365) wifi:exceed max band, 2g, ngroup:3
+W (8465) wifi:exceed max band, 2g, ngroup:3
+W (8575) wifi:exceed max band, 2g, ngroup:3
+W (8675) wifi:exceed max band, 2g, ngroup:3
+W (8775) wifi:exceed max band, 2g, ngroup:3
+W (8875) wifi:exceed max band, 2g, ngroup:3
+W (8985) wifi:exceed max band, 2g, ngroup:3
+W (9085) wifi:exceed max band, 2g, ngroup:3
+W (9185) wifi:exceed max band, 2g, ngroup:3
+W (9285) wifi:exceed max band, 2g, ngroup:3
+W (9385) wifi:exceed max band, 2g, ngroup:3
+W (9495) wifi:exceed max band, 2g, ngroup:3
+W (9595) wifi:exceed max band, 2g, ngroup:3
+W (9695) wifi:exceed max band, 2g, ngroup:3
+W (9795) wifi:exceed max band, 2g, ngroup:3
+W (9905) wifi:exceed max band, 2g, ngroup:3
+W (10205) wifi:exceed max band, 2g, ngroup:3
+W (10315) wifi:exceed max band, 2g, ngroup:3
+W (10415) wifi:exceed max band, 2g, ngroup:3
+W (10515) wifi:exceed max band, 2g, ngroup:3
+W (10615) wifi:exceed max band, 2g, ngroup:3
+W (10725) wifi:exceed max band, 2g, ngroup:3
+W (10825) wifi:exceed max band, 2g, ngroup:3
+W (10925) wifi:exceed max band, 2g, ngroup:3
+W (11025) wifi:exceed max band, 2g, ngroup:3
+W (11135) wifi:exceed max band, 2g, ngroup:3
+W (11235) wifi:exceed max band, 2g, ngroup:3
+W (11435) wifi:exceed max band, 2g, ngroup:3
+W (11545) wifi:exceed max band, 2g, ngroup:3
+W (11645) wifi:exceed max band, 2g, ngroup:3
+W (11745) wifi:exceed max band, 2g, ngroup:3
+W (11845) wifi:exceed max band, 2g, ngroup:3
+W (11945) wifi:exceed max band, 2g, ngroup:3
+W (12055) wifi:exceed max band, 2g, ngroup:3
+W (12155) wifi:exceed max band, 2g, ngroup:3
+W (12465) wifi:exceed max band, 2g, ngroup:3
+W (12565) wifi:exceed max band, 2g, ngroup:3
+W (12765) wifi:exceed max band, 2g, ngroup:3
+W (12975) wifi:exceed max band, 2g, ngroup:3
+W (13075) wifi:exceed max band, 2g, ngroup:3
+W (13175) wifi:exceed max band, 2g, ngroup:3
+W (13285) wifi:exceed max band, 2g, ngroup:3
+W (13385) wifi:exceed max band, 2g, ngroup:3
+W (13485) wifi:exceed max band, 2g, ngroup:3
+W (13585) wifi:exceed max band, 2g, ngroup:3
+W (13795) wifi:exceed max band, 2g, ngroup:3
+W (13895) wifi:exceed max band, 2g, ngroup:3
+W (14205) wifi:exceed max band, 2g, ngroup:3
+W (14305) wifi:exceed max band, 2g, ngroup:3
+W (14405) wifi:exceed max band, 2g, ngroup:3
+W (14505) wifi:exceed max band, 2g, ngroup:3
+W (14615) wifi:exceed max band, 2g, ngroup:3
+W (14815) wifi:exceed max band, 2g, ngroup:3
+W (14915) wifi:exceed max band, 2g, ngroup:3
+W (15025) wifi:exceed max band, 2g, ngroup:3
+W (15125) wifi:exceed max band, 2g, ngroup:3
+W (15225) wifi:exceed max band, 2g, ngroup:3
+W (15325) wifi:exceed max band, 2g, ngroup:3
+W (15535) wifi:exceed max band, 2g, ngroup:3
+W (15845) wifi:exceed max band, 2g, ngroup:3
+W (15945) wifi:exceed max band, 2g, ngroup:3
+W (16045) wifi:exceed max band, 2g, ngroup:3
+W (16145) wifi:exceed max band, 2g, ngroup:3
+W (16255) wifi:exceed max band, 2g, ngroup:3
+W (16355) wifi:exceed max band, 2g, ngroup:3
+W (16555) wifi:exceed max band, 2g, ngroup:3
+W (16665) wifi:exceed max band, 2g, ngroup:3
+W (16765) wifi:exceed max band, 2g, ngroup:3
+W (16965) wifi:exceed max band, 2g, ngroup:3
+W (17065) wifi:exceed max band, 2g, ngroup:3
+W (17175) wifi:exceed max band, 2g, ngroup:3
+W (17275) wifi:exceed max band, 2g, ngroup:3
+W (17375) wifi:exceed max band, 2g, ngroup:3
+W (17585) wifi:exceed max band, 2g, ngroup:3
+W (17685) wifi:exceed max band, 2g, ngroup:3
+W (17785) wifi:exceed max band, 2g, ngroup:3
+W (17885) wifi:exceed max band, 2g, ngroup:3
+W (18095) wifi:exceed max band, 2g, ngroup:3
+W (18195) wifi:exceed max band, 2g, ngroup:3
+W (18295) wifi:exceed max band, 2g, ngroup:3
+W (18405) wifi:exceed max band, 2g, ngroup:3
+W (18505) wifi:exceed max band, 2g, ngroup:3
+W (18605) wifi:exceed max band, 2g, ngroup:3
+W (18705) wifi:exceed max band, 2g, ngroup:3
+W (18815) wifi:exceed max band, 2g, ngroup:3
+W (18915) wifi:exceed max band, 2g, ngroup:3
+W (19015) wifi:exceed max band, 2g, ngroup:3
+W (19115) wifi:exceed max band, 2g, ngroup:3
+W (19225) wifi:exceed max band, 2g, ngroup:3
+W (19325) wifi:exceed max band, 2g, ngroup:3
+W (19425) wifi:exceed max band, 2g, ngroup:3
+W (19635) wifi:exceed max band, 2g, ngroup:3
+W (19735) wifi:exceed max band, 2g, ngroup:3
+W (19935) wifi:exceed max band, 2g, ngroup:3
+W (20145) wifi:exceed max band, 2g, ngroup:3
+W (20245) wifi:exceed max band, 2g, ngroup:3
+W (20345) wifi:exceed max band, 2g, ngroup:3
+W (20445) wifi:exceed max band, 2g, ngroup:3
+W (20655) wifi:exceed max band, 2g, ngroup:3
+W (20755) wifi:exceed max band, 2g, ngroup:3
+W (20855) wifi:exceed max band, 2g, ngroup:3
+W (20965) wifi:exceed max band, 2g, ngroup:3

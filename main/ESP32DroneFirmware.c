@@ -18,7 +18,7 @@
 #define WIFI_FAILURE (1 << 1)
 #define TCP_SUCCESS (1 << 0)
 #define TCP_FAILURE (1 << 1)
-#define MAX_FAILURES 20  // Increased retry limit
+#define MAX_FAILURES 10
 
 /** GLOBALS **/
 
@@ -125,9 +125,9 @@ esp_err_t connect_wifi()
     /** START THE WIFI DRIVER **/
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "/*ADD WIFI SSID*/",
-            .password = "/*ADD WIFI PASSWORD*/", // Or NOPE if there is no password
-            .threshold.authmode = WIFI_AUTH_WPA2_PSK,
+            .ssid = "SwarmDroneSSID",
+            .password = "SwarmDronePassword", // Or "" if there is no password
+            .threshold.authmode = WIFI_AUTH_OPEN, //WIFI_AUTH_WPA2_PSK (if password)
             .pmf_cfg = {
                 .capable = true,
                 .required = false
@@ -180,7 +180,7 @@ esp_err_t connect_tcp_server(void)
     char readBuffer[1024] = {0};
 
     serverInfo.sin_family = AF_INET;
-    serverInfo.sin_addr.s_addr = inet_addr("/*ADD IP ADDRESS HERE*/");
+    serverInfo.sin_addr.s_addr = inet_addr("192.168.150.10");
     serverInfo.sin_port = htons(12345); // Change this port if you want to change the ESP32
 
     int sock = socket(AF_INET, SOCK_STREAM, 0);
